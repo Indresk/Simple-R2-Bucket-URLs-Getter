@@ -24,8 +24,6 @@ export async function getAllObjectUrls(bucketName, baseUrl) {
         });
 
         const response = await s3.send(command);
-
-        console.log(response)
         
         if (response.Contents) {
             const cleanArray = response.Contents.filter(item => item.Size > 0)
