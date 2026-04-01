@@ -1,0 +1,17 @@
+{
+  "name": "simple-r2-bucket-urls-getter",
+  "version": "1.0.0",
+  "description": "Simple tool to get all URLs from your assets on R2 cloudflare bucket",
+  "license": "MIT",
+  "author": "Indesk",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "node --watch ./index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1021.0",
+    "dotenv": "^17.3.1"
+  }
+}
