@@ -1,5 +1,5 @@
 # Simple R2 Bucket URLs Getter
-This is a simple script that retrieves the URLs of all objects (no empty folders) in a specified R2 bucket and saves them to a JSON. The script uses the Cloudflare API to access the R2 bucket and requires an API token with appropriate read permissions.
+This is a simple script that retrieves the URLs of all objects (no empty folders) in a specified R2 bucket and saves them to a JSON. The script uses the Cloudflare API to access the R2 bucket and requires an API credentials and that API needs to have appropriate read permissions.
 
 ## Prerequisites
 - NodeJS 18+
